@@ -5,6 +5,7 @@
 from time import sleep
 from hashlib import sha224
 from common import get_client
+from decimal import Decimal
 
 
 def test_blocklast_json(myserver, verbose=False):
